@@ -1,7 +1,7 @@
-pandas
-tensorflow
-numpy
-scikit-learn
-gensim
-nltk
-silence-tensorflow
+pandas==1.3.5
+tensorflow==2.9.1
+numpy==1.21.6
+scikit-learn==1.0.2
+gensim==4.2.0
+nltk==3.7
+silence-tensorflow==1.2.1
