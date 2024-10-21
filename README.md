@@ -16,12 +16,12 @@ This model identifies multiple key factors that govern the dissemination of hate
 1. Clone this repository
 2. Install the required packages:
 ```python
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 3. Download the NLTK punkt tokenizer:
 ```python
 import nltk
-nltk.download('punkt')```
+nltk.download('punkt')
 
 ## Data
 
