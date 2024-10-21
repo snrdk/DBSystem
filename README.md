@@ -48,7 +48,7 @@ This files contain text extracted from Stormfront, a white supremacist forum, an
 
 
 ## Usage
-Run the Jupyter notebook `hate_diffusion_prediction`.ipynb to:  
+Run the Jupyter notebook `hate_diffusion_prediction.ipynb` to:  
 
 1. Load and preprocess the data
 2. Train the Doc2Vec model
