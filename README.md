@@ -33,7 +33,7 @@ nltk.download('punkt')
 The project expects the following data files:
 
 `annotations_metadata.csv`: Contains metadata about the annotated texts from Hate speech dataset from white supremacist forums.    
-You can download this file from [Here](https://github.com/sara-02/hate-speech-dataset)  
+You can download this file from [Here](https://github.com/sara-02/hate-speech-dataset).  
 
 This files contain text extracted from Stormfront, a white supremacist forum, and was used in the paper "[Hate speech dataset from a white supremacy forum](https://arxiv.org/abs/1809.04444)"[2]. The dataset was created by randomly sampling forum posts from several sub-forums and separating them into sentences. These sentences were manually labelled according to whether they contain hate speech according to specific annotation guidelines.
 
