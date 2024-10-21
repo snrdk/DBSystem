@@ -61,6 +61,6 @@ The notebook includes code to evaluate the models using accuracy and AUC metrics
 
 
 ## References
-[1] Masud, S., Dutta, S., Makkar, S., Jain, C., Goyal, V., Das, A., & Chakraborty, T. (2021, April). Hate is the new infodemic: A topic-aware modeling of hate speech diffusion on twitter. In 2021 IEEE 37th International Conference on Data Engineering (ICDE) (pp. 504-515). IEEE.
+[1] Masud, S., Dutta, S., Makkar, S., Jain, C., Goyal, V., Das, A., & Chakraborty, T. (2021, April). Hate is the new infodemic: A topic-aware modeling of hate speech diffusion on twitter. In 2021 IEEE 37th International Conference on Data Engineering (ICDE) (pp. 504-515). IEEE.  
 [2] De Gibert, O., Perez, N., García-Pablos, A., & Cuadros, M. (2018). Hate speech dataset from a white supremacy forum. arXiv preprint arXiv:1809.04444.
 
