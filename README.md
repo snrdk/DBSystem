@@ -4,3 +4,7 @@ This repository aims to reproduce the findings of the paper "[Hate is the New In
 2) Retweet diffusion of hate
 
 This model identifies multiple key factors that govern the dissemination of hate.
+
+
+## Notes
+The authors' implementation of the code was only partially publicly available, and the dataset was not publicly available, so the code was reproduced as closely as possible to the paper.
