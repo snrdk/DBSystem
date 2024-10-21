@@ -56,9 +56,9 @@ This files contain text extracted from Stormfront, a white supremacist forum, an
 
 ### Input features
 * User history-based features
-  - Top 300 features of tf-idf values from 30 most recent tweets posted by $u_i$  
+  - Top 300 features of tf-idf values from 30 most recent tweets posted by $u_{i}$  
   - Ratio of hateful vs non-hateful tweets and hate lexicon vector  
-  - Follower count and date of account creation of $u_i$  
+  - Follower count and date of account creation of $u_{i}$  
   - Number of topics (hashtags) that $u_i$ has tweeted on up to time $t$  
   
 * Topic oriented feature
