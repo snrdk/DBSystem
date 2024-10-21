@@ -37,7 +37,15 @@ You can download this file from [Here](https://github.com/sara-02/hate-speech-da
 
 This files contain text extracted from Stormfront, a white supremacist forum, and was used in the paper "[Hate speech dataset from a white supremacy forum](https://arxiv.org/abs/1809.04444)"[2]. The dataset was created by randomly sampling forum posts from several sub-forums and separating them into sentences. These sentences were manually labelled according to whether they contain hate speech according to specific annotation guidelines.
 
-`all_files`: A directory containing text files with the content to be classified. The file name is formatted as commentID_sentenceNumber.txt, so the files that share the same number before the underscore pertain to the same comment.  
+`all_files`: A directory containing text files with the content to be classified. The file name is formatted as commentID_sentenceNumber.txt, so the files that share the same number before the underscore pertain to the same comment. 
+
+**Data Structure**
+* file_id
+* text(comments)
+* user_id
+* Subforum_id
+* num_contexts
+* Label (hate, no-hate, skip, relation)
 
 
 ## Features
@@ -46,6 +54,21 @@ This files contain text extracted from Stormfront, a white supremacist forum, an
 * Neural network model for classification
 * Comparison with traditional machine learning models (Logistic Regression, Decision Trees)
 
+### Input features
+* User history-based features
+  - Top 300 features of tf-idf values from 30 most recent tweets posted by $u_i$  
+  - Ratio of hateful vs non-hateful tweets and hate lexicon vector  
+  - Follower count and date of account creation of $u_i$  
+  - Number of topics (hashtags) that $u_i$ has tweeted on up to time $t$  
+  
+* Topic oriented feature
+  - Cosine similarity between Doc2Vec representation of tweets and hashtag
+
+* Non-peer endogenous features
+  - Binary vector representing the top 50 trending hashtags  
+
+* Exogenous feature
+  - Average tf-idf vector for the 60 most recent news headlines before the time of the tweet
 
 ## Usage
 Run the Jupyter notebook `hate_diffusion_prediction.ipynb` to:  
